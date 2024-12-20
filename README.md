@@ -34,7 +34,9 @@ Selecione as moedas de e para as quais você deseja converter.
 Insira o valor que deseja converter.
 O aplicativo exibirá o valor convertido com base nas taxas de câmbio mais recentes.
 Autores
+
 Carlos Henrique Martins
+
 🚀 Sobre mim
 Olá! Sou Carlos Henrique, um apaixonado estudante de programação fullstack e analista de dados. Ao longo da minha jornada, adquiri habilidades em uma variedade de tecnologias, incluindo React.js, Node.js, Next.js, TypeScript, e atualmente estou me aprofundando em Java para desenvolvimento de backend, especificamente com Spring Boot. Gosto de explorar novas ferramentas e frameworks para aprimorar minhas habilidades e criar soluções inovadoras. Conecte-se comigo e vamos conversar sobre o mundo emocionante do desenvolvimento de software e análise de dados!
 
