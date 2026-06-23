@@ -1,45 +1,38 @@
-Título do Projeto
-LiterAlura - Projeto Java
+# 📚 LiterAlura - Projeto Java
 
-Visão geral
-O projeto LiterAlura é um aplicativo de console desenvolvido usando Spring Boot que interage com a API Gutendex.com para acessar uma vasta coleção de informações de livros. Este aplicativo permite que os usuários busquem livros da API e os armazenem em um banco de dados para recuperação posterior. Os usuários também podem consultar seus livros salvos com base no título, gênero, idioma e autores. Além disso, o aplicativo suporta operações para recuperar autores que estavam vivos após uma data especificada inserida pelo usuário.
+## Visão geral
 
-Agradecimentos especiais ao Gutendex.com por fornecer os valiosos dados do livro e à comunidade Spring Boot pela estrutura robusta.
+O LiterAlura é uma aplicação de console desenvolvida em Java com Spring Boot, criada como desafio do Programa Oracle One (Alura + Oracle). A aplicação consome a API pública Gutendex para buscar informações de livros e os armazena em um banco de dados PostgreSQL para consultas posteriores.
 
-Características
-Integração de API: utiliza a API do Gutendex.com para acessar informações de livros.
-Interação com banco de dados: permite que os usuários armazenem e recuperem livros de um banco de dados.
-Funcionalidade de pesquisa: os usuários podem pesquisar livros salvos por título, gênero, idioma e autores.
-Filtragem de autores: suporta filtragem de autores que estavam vivos após uma data definida pelo usuário.
-Tecnologias Utilizadas
-Java: A linguagem de programação principal usada para desenvolver o aplicativo.
+Agradecimentos ao Gutendex.com por disponibilizar os dados de livros utilizados neste projeto.
 
-Integração de API: utilizou uma API externa para recuperar taxas de câmbio em tempo real.
+## ⚙️ Funcionalidades
 
-Spring Boot 3.2
+- [x] Busca de livros na API Gutendex por título
+- [x] Armazenamento dos livros e autores em banco de dados (PostgreSQL + JPA/Hibernate)
+- [x] Listagem de livros já registrados no banco
+- [x] Listagem de autores registrados
+- [x] Busca de autores vivos em um determinado ano
+- [x] Listagem de livros por idioma
 
-API do Gutendex.com
+## 🛠 Tecnologias
 
-Banco de dados (PostgreSQL)
+- **Java 17**
+- **Spring Boot 3.2**
+- **API Gutendex** — consumo de dados de livros
+- **PostgreSQL**
+- **JPA / Hibernate**
+- **Maven**
 
-Começando
-Para executar o Conversor de Moedas localmente, siga estas etapas:
+## ▶️ Como executar
 
-Clone este repositório para sua máquina local.
-Abra o projeto no seu IDE Java preferido.
-Execute o aplicativo.
-Uso
-Ao iniciar o aplicativo, você terá opções para escolher as moedas desejadas e realizar conversões.
-Selecione as moedas de e para as quais você deseja converter.
-Insira o valor que deseja converter.
-O aplicativo exibirá o valor convertido com base nas taxas de câmbio mais recentes.
-Autores
+1. Clone este repositório:
+   git clone https://github.com/solrac-henrique/challenge-literAlura.git
 
-Carlos Henrique Martins
+2. Configure as credenciais do banco de dados PostgreSQL no arquivo `application.properties`.
+3. Execute o projeto com Maven:
+   ./mvnw spring-boot:run
 
-🚀 Sobre mim
+4. Utilize o menu interativo exibido no console para buscar livros, autores e aplicar os filtros disponíveis.
 
-Olá! Sou Carlos Henrique, um apaixonado estudante de programação fullstack e analista de dados. Ao longo da minha jornada, adquiri habilidades em uma variedade de tecnologias, incluindo React.js, Node.js, Next.js, TypeScript, e atualmente estou me aprofundando em Java para desenvolvimento de backend, especificamente com Spring Boot. Gosto de explorar novas ferramentas e frameworks para aprimorar minhas habilidades e criar soluções inovadoras. Conecte-se comigo e vamos conversar sobre o mundo emocionante do desenvolvimento de software e análise de dados!
-
-Contribuindo
-Contribuições para o projeto LiterAlura são bem-vindas! Se você tiver alguma sugestão, solicitação de recurso ou relatório de bug, sinta-se à vontade para abrir um issue ou enviar um pull request.
+### Autor: Carlos Henrique Martins
